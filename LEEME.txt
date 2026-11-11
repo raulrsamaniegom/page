@@ -1,0 +1,35 @@
+Raúl Samaniego | Sitio web
+==========================
+
+Cómo abrirlo
+Doble clic en index.html. No necesita servidor ni conexión: la tipografía
+va incrustada en assets/css/fonts.css y los scripts son clásicos, así que
+funciona desde disco en Chrome, Safari, Edge y Firefox, en escritorio y móvil.
+
+Estructura
+index.html                 Portada, Método, Servicios, Premios y Contacto
+servicio-*.html            Ocho páginas de servicio (evento complejo, evento estándar,
+                           stands, activación BTL, P.O.P., muebles, video e IA, retoque e IA)
+assets/css/fonts.css       Archivo variable (ejes de peso y anchura), incrustada
+assets/css/main.css        Sistema visual "Tinta de plano"
+assets/js/main.js          Video adaptable, despiece del símbolo, menú, copiar correo
+assets/video/              Loops del hero (16:9 escritorio, 9:16 móvil), sin audio
+assets/img/                Pósters, imágenes de cierre, logotipo SVG, íconos y og.jpg
+assets/img/premios/        Renders (WebP con transparencia + PNG) y fotos de premiación en duotono
+assets/img/servicios/      Imágenes de servicios en 800 y 1600 px (WebP) con respaldo JPG/PNG
+assets/video/servicios/    Videos de servicios en H.264 con audio
+assets/fonts/              Archivo original (.ttf), respaldo para edición
+
+Paleta
+Tinta de plano #0E1A2B · Papel calco #E9ECEA · Cian de plotter #4FD1FF
+Gris truss #8A939D · Ámbar de seguidor #FFB02E (solo acciones)
+
+Tipografía
+Archivo, de Omnibus-Type, con licencia SIL Open Font License 1.1
+(https://openfontlicense.org). Uso comercial y web permitido.
+
+Interacciones principales
+Tríada (método), premios con telón a la foto de la premiación, vista previa
+de servicios al pasar el mouse, "Del trazo a la obra" (plano, render y obra)
+en Stands y Muebles, recorrido del evento, piezas del evento, videos que se
+reproducen solo en pantalla y visor a pantalla completa en todas las galerías.
